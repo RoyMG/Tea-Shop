@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Green Leaf</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <header class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"><h1>Green Leaf</h1></div>
+      </div>
+      <div class="row">
+        <div class="col-md-12"><h2>Tea house</h2></div>
+      </div>
+    </div>
+    </header>
+    <nav class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="about.html"><li>About Us</li></a>
+            <a href="services.html"><li>Services</li></a>
+            <a href="products.html"><li>Products</li></a>
+            <a href="contact.html"><li>Contact Us</li></a>
+          </ul>
+        </div>
+        <div class="row handle">
+          <div class="col-xs-12">Menu</div>
+        </div>
+      </div>
+    </nav>
+    <div class="container main">
+      <div class="row">
+        <div class="col-md-12 title">
+          <h1>Services</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="images/cup-of-tea.jpg" alt="...">
+            <div class="caption">
+              <h3>Regular Drinks</h3>
+              <p>We also offer a cup of coffee, sodas and juices for those who want to take a break of tea.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="images/tea.jpg" alt="...">
+            <div class="caption">
+              <h3>Premium Tea</h3>
+              <p>We offer teas that are over the seas, a unique expirience!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-offset-3 col-md-offset-0 col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="images/tea-time.jpg" alt="...">
+            <div class="caption">
+              <h3>Herb Tea</h3>
+              <p>Select your favorite type of tea herb and get more to go.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="container-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-8 col-md-8">
+            <p>Weekdays: 8am - 5pm <br> Weekends: 9am - 6pm <br> 1385 Woodroffe Avenue Ottawa, Ontario K2G 1V8 555-555-5555 </p>
+          </div>
+          <div class="col-md-4 icons">
+            <a href="#"><img class="social" src="images/facebook.png" alt=""></a>
+            <a href="#"><img class="social" src="images/instagram.png" alt=""></a>
+            <a href="#"><img class="social" src="images/pinterest.png" alt=""></a>
+            <a href="#"><img class="social" src="images/twitter.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script>
+            $('.handle').on('click', function(){
+                $('nav ul').toggleClass('showing');
+            });
+        </script>
+  </body>
+</html>

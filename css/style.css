@@ -1,0 +1,135 @@
+@import url(http://allfont.net/allfont.css?fonts=freestyle-script-normal);
+
+.container, .container-fluid{
+	padding: 0;
+}
+.social{
+	width: 45px;
+	height: auto;
+}
+header , footer{
+	background-color: #b2e7ad;
+}
+body{
+	font-family: Helvetica, sans-serif;
+}
+header{
+	background-image: url(../images/green-bamboo-leaves.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: 70%;
+	background-size: 70%;
+	background-position: 220px 0px;
+}
+h1, h2, nav li, .handle{
+	font-family: 'Freestyle Script Normal', arial;
+}
+h1{
+	font-size: 7em;
+	color: #566043;
+	margin-bottom: 0px;
+	letter-spacing: -10px;
+}
+h2{
+	font-size: 3em;
+	color: #566043;
+	margin-top: 0px;
+	padding-left: 15%;
+}
+.title{
+	text-align: center;
+}
+
+footer p{
+	font-size: 14px;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+nav{
+	background-color: #d4c29e;
+}
+nav li{
+	display: inline-block;
+	font-size: 3em;
+}
+nav ul{
+	overflow: hidden;
+	text-align: center;
+	-webkit-transition: max-height 0.4s;
+	-o-transition: max-height 0.4s;
+	transition: max-height 0.4s;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+.listofteas li{
+	font-size: 1.5em;
+	list-style-type: none;	
+}
+.icons{
+	padding: 10px 0;
+	text-align: center;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+.teacarousel{
+	margin-bottom: 25px;
+}
+.teabags{
+	margin-bottom: 25px;
+}
+@media screen and (max-width: 767px){
+    nav ul{
+     max-height: 0px;
+     padding-left: 40px;   
+    }
+    .showing{
+        max-height: 30em;
+    }
+    nav ul li{
+        box-sizing: border-box;
+        width: 100%;
+        text-align: left;     
+    }
+    .handle{
+        display: block;
+        font-size: 3em;
+        cursor: pointer;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+
+	header{
+		-webkit-background-size: 45%;
+		background-size: 45%;
+		background-position: right;
+	}
+	.handle{
+		display: none;
+	}
+	ul li{
+		font-size: 2.5em;
+		margin: 10px 10px;
+	}
+	h2{
+		padding-left: 25%;
+	}
+
+ }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+	ul li{
+		font-size: 3em;
+		margin: 10px 30px;
+	}
+
+ }
+
+/* -webkit-background-size: 45%;
+ background-size: 45%;*/
